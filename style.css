@@ -83,6 +83,39 @@ main {
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  .secon_banner {
+    min-height: 60vh;
+    padding: 1rem;
+  }
+
+  .secon_image {
+    max-width: 90%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .secon_text p {
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .secon_banner {
+    min-height: 50vh;
+    padding: 0.5rem;
+  }
+
+  .secon_image {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .secon_text p {
+    font-size: clamp(1rem, 1.8vw, 1.2rem);
+  }
+}
+
 /*배너*/
 .banner {
   background-color: #1469d9;
