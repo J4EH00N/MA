@@ -1,20 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
-/* CSS 변수로 재사용성 강화 */
-:root {
-  --primary-color: #1469d9;
-  --text-color: #000;
-  --bg-light: #ebebeb;
-  --card-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  --border-radius: 10px;
-  --font-family: 'Nanum Gothic', sans-serif;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--font-family);
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 body {
@@ -298,7 +288,6 @@ footer {
   color: #999;
 }
 
-/* 반응형 디자인 */
 @media (max-width: 1024px) {
   .logo_pic img {
     width: 50px;
@@ -306,11 +295,11 @@ footer {
   }
 
   nav ul {
-    gap: 30px; /* 태블릿에서 간격 축소 */
+    gap: 30px;
   }
 
   nav ul li a {
-    font-size: 18px; /* 폰트 크기 조정 */
+    font-size: 18px;
   }
 
   .banner {
